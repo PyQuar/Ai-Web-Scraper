@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 import os
 
 # Load OpenRouter API Key
-openrouter_api_key = "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"
+openrouter_api_key = "<Your_API_Key>"
 
 model = ChatOpenAI(
     openai_api_key=openrouter_api_key,  # Use OpenRouter API key
